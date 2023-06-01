@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #153e5c;
+}
+h1,h2{  
+    text-align: center;
+    color: #cdd4ca;
+}
+a{
+    color: #cdd4ca;
+}
+
+a:hover{
+    color:#f2be54;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+p{
+    font-size: 150%;
+    color: white;
+}
+
+.text_P{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text_P:first-child{
+    text-align: center;
+}
+.text_P:nth-child(2){
+text-align: right;
+}
+.text_P:nth-child(3){
+    text-align: left;
+}
+.text_P:last-child{
+    text-align: justify;
+}
